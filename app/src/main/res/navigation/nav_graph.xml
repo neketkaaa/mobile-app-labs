@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@+id/fragment_one">
+    <fragment
+        android:id="@+id/fragment_one"
+        android:name="com.vdovichenko.app.FragmentOne"
+        android:label="One"
+        android:textColor="#FFFFFF"
+        />
+
+    <fragment
+        android:id="@+id/fragment_two"
+        android:name="com.vdovichenko.app.fragmentTwo"
+        android:label="Two"
+        android:textColor="#FFFFFF"
+        />
+
+</navigation>
